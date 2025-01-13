@@ -1,5 +1,6 @@
 on: push
 jobs:
-  run-on: ubuntu:latest
-  steps:
-    - run: apt update
+  job1:
+    run-on: ubuntu:latest
+    steps:
+      - run: apt update
