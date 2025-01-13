@@ -1,5 +1,5 @@
 on: push
   jobs:
-  on: ubuntu:latest
+    run-on: ubuntu:latest
     steps:
-      - run: git --version
+      - run: apt update
